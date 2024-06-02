@@ -45,31 +45,118 @@
       <!-- card -->
       <section>
         <v-container>
-          <v-card class="mx-auto" max-width="400">
-            <v-img
-              class="align-end text-white"
-              height="200"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-              cover
-            >
-              <v-card-title
-                >Top 10 Australian beaches without the eac</v-card-title
-              >
-            </v-img>
+          <v-row
+            ><v-col>
+              <v-card class="mx-auto" hover>
+                <v-img
+                  class="align-end text-white"
+                  height="200"
+                  src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  cover
+                >
+                  <v-card-title
+                    >Top 10 Australian beaches without the eac</v-card-title
+                  >
+                </v-img>
 
-            <v-card-subtitle class="pt-4"> its all Sam </v-card-subtitle>
+                <v-card-subtitle class="pt-4"> its all Sam </v-card-subtitle>
 
-            <v-card-text>
-              <div>Whitehaven Beach without the each</div>
+                <v-card-text>
+                  <div>Whitehaven Beach without the each</div>
 
-              <div>Its all Sam laming</div>
-            </v-card-text>
+                  <div>Its all Sam laming</div>
+                </v-card-text>
 
-            <v-card-actions>
-              <v-btn color="orange" text="Share"></v-btn>
-              <v-btn color="orange" text="Actually no he's mine"></v-btn>
-            </v-card-actions>
-          </v-card>
+                <v-card-actions>
+                  <v-btn color="orange" text="Share"></v-btn>
+                  <v-btn color="orange" text="Actually no he's mine"></v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+
+            <v-col>
+              <v-card class="mx-auto" hover>
+                <v-img
+                  class="align-end text-white"
+                  height="200"
+                  src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  cover
+                >
+                  <v-card-title
+                    >Top 10 Australian beaches without the eac</v-card-title
+                  >
+                </v-img>
+
+                <v-card-subtitle class="pt-4"> its all Sam </v-card-subtitle>
+
+                <v-card-text>
+                  <div>Whitehaven Beach without the each</div>
+
+                  <div>Its all Sam laming</div>
+                </v-card-text>
+
+                <v-card-actions>
+                  <v-btn color="orange" text="Share"></v-btn>
+                  <v-btn color="orange" text="Actually no he's mine"></v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col>
+              <v-card class="mx-auto" hover>
+                <v-img
+                  class="align-end text-white"
+                  height="200"
+                  src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  cover
+                >
+                  <v-card-title
+                    >Top 10 Australian beaches without the eac</v-card-title
+                  >
+                </v-img>
+
+                <v-card-subtitle class="pt-4"> its all Sam </v-card-subtitle>
+
+                <v-card-text>
+                  <div>Whitehaven Beach without the each</div>
+
+                  <div>Its all Sam laming</div>
+                </v-card-text>
+
+                <v-card-actions>
+                  <v-btn color="orange" text="Share"></v-btn>
+                  <v-btn color="orange" text="Actually no he's mine"></v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+
+              <v-col>
+              <v-card class="mx-auto" hover>
+                <v-img
+                  class="align-end text-white"
+                  height="200"
+                  src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  cover
+                >
+                  <v-card-title
+                    >Top 10 Australian beaches without the eac</v-card-title
+                  >
+                </v-img>
+
+                <v-card-subtitle class="pt-4"> its all Sam </v-card-subtitle>
+
+                <v-card-text>
+                  <div>Whitehaven Beach without the each</div>
+
+                  <div>Its all Sam laming</div>
+                </v-card-text>
+
+                <v-card-actions>
+                  <v-btn color="orange" text="Share"></v-btn>
+                  <v-btn color="orange" text="Actually no he's mine"></v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+          </v-row>
         </v-container>
       </section>
     </v-app>
