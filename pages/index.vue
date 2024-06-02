@@ -9,26 +9,25 @@
       </section>
       <section class="py-10">
         <v-container>
-          <div class="d-flex justify-center justify-space-between">
+          <!-- <div class="d-flex justify-center justify-space-between">
             <div class="bg-red div"></div>
             <div class="bg-pink div"></div>
           </div>
         
            
             <v-col></v-col>
-            <v-col></v-col>
-           
-        <v-row align="center">
-             <v-col>
+            <v-col></v-col> -->
+
+          <v-row align="center">
+            <v-col cols="12" md="6">
               <v-img
                 height="400"
-                width="400"
                 cover
                 rounded
                 src="data:image/png;base64,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"
               ></v-img>
-           </v-col>
-            <v-col>
+            </v-col>
+            <v-col cols="12" md="6">
               <h1>blah</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,9 +35,41 @@
                 Veritatis fugit molestiae vitae laboriosam voluptatem, autem
                 nemo blanditiis deserunt ex, culpa quidem ratione odio.
               </p>
-              <v-btn to="/about" color="red"> <v-icon>mdi-bed</v-icon>SLEEP</v-btn>
-           </v-col>
+              <v-btn to="/about" color="red">
+                <v-icon>mdi-bed </v-icon>SLEEP</v-btn
+              >
+            </v-col>
           </v-row>
+        </v-container>
+      </section>
+      <!-- card -->
+      <section>
+        <v-container>
+          <v-card class="mx-auto" max-width="400">
+            <v-img
+              class="align-end text-white"
+              height="200"
+              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+              cover
+            >
+              <v-card-title
+                >Top 10 Australian beaches without the eac</v-card-title
+              >
+            </v-img>
+
+            <v-card-subtitle class="pt-4"> its all Sam </v-card-subtitle>
+
+            <v-card-text>
+              <div>Whitehaven Beach without the each</div>
+
+              <div>Its all Sam laming</div>
+            </v-card-text>
+
+            <v-card-actions>
+              <v-btn color="orange" text="Share"></v-btn>
+              <v-btn color="orange" text="Actually no he's mine"></v-btn>
+            </v-card-actions>
+          </v-card>
         </v-container>
       </section>
     </v-app>
@@ -49,7 +80,7 @@
 </script>
 
 <style scoped>
-.div{
+.div {
   height: 100px;
   width: 100px;
 }
